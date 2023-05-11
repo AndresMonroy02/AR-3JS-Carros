@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const start = async() => {
     const mindarThree = new window.MINDAR.IMAGE.MindARThree({
       container: document.body,
-      imageTargetSrc: '../../assets/targets/charizar.mind',
+      imageTargetSrc: '../../assets/targets/targets.mind',
     });
     const {renderer, scene, camera} = mindarThree;
 
@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
     scene.add(light);
 
     const raccoon = await loadGLTF('../../assets/models/scene.gltf');
-    raccoon.scene.scale.set(0.02, 0.02, 0.02);
+    raccoon.scene.scale.set(0.00005, 0.00005, 0.00005);
     raccoon.scene.position.set(0, -0.4, 0);
     raccoon.scene.userData.clickable = true
 
@@ -24,11 +24,11 @@ document.addEventListener('DOMContentLoaded', () => {
     camera.add(listener);
 
     const sound = new THREE.Audio(listener);
-    const audio = await loadAudio('../../assets/sounds/caught-a-pokemon.mp3');
+    const audio = await loadAudio('../../assets/sounds/GTR-Sound.mp3');
     sound.setBuffer(audio);
 
     // Video
-    const video = await loadVideo("../../assets/videos/Charizard.mp4");
+    const video = await loadVideo("../../assets/videos/SmokeyNagata.mp4");
     const texture = new THREE.VideoTexture(video);
 
     const geometry = new THREE.PlaneGeometry(1, 204/480);
@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     var video_rep = true;
-    document.body.addEventListener('keypress', (e) => {
+    document.body.addEventListener('dblclick', (e) => {
       if (video_rep) {
         video_rep = false;
         anchor.group.add(plane);

@@ -1,11 +1,11 @@
 Model Information:
-* title:	Armored Charizard
-* source:	https://sketchfab.com/3d-models/armored-charizard-18c9b55cb05c45399edd51ca892352e0
-* author:	projectmgame (https://sketchfab.com/projectmgame)
+* title:	Custom 2017 Nissan GTR
+* source:	https://sketchfab.com/3d-models/custom-2017-nissan-gtr-a79151120b524854a958ce46a3b064a8
+* author:	Socksthecat (https://sketchfab.com/Socksthecat)
 
 Model License:
 * license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
 * requirements:	Author must be credited. Commercial use is allowed.
 
 If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
-This work is based on "Armored Charizard" (https://sketchfab.com/3d-models/armored-charizard-18c9b55cb05c45399edd51ca892352e0) by projectmgame (https://sketchfab.com/projectmgame) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+This work is based on "Custom 2017 Nissan GTR" (https://sketchfab.com/3d-models/custom-2017-nissan-gtr-a79151120b524854a958ce46a3b064a8) by Socksthecat (https://sketchfab.com/Socksthecat) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
