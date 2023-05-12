@@ -58,7 +58,19 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     var video_rep = true;
-    document.body.addEventListener('dblclick', (e) => {
+    // document.body.addEventListener('dblclick', (e) => {
+    //   if (video_rep) {
+    //     video_rep = false;
+    //     anchor.group.add(plane);
+    //     video.play();
+    //   } else {
+    //     video_rep = true;
+    //     video.pause();
+    //   }
+    // });
+
+    document.getElementById('btnvideo').addEventListener('click', (e) => {
+      console.log("click");
       if (video_rep) {
         video_rep = false;
         anchor.group.add(plane);
@@ -68,6 +80,7 @@ document.addEventListener('DOMContentLoaded', () => {
         video.pause();
       }
     });
+    
 
     await mindarThree.start();
     renderer.setAnimationLoop(() => {
