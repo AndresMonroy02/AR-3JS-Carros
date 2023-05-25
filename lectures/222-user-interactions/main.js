@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const light = new THREE.HemisphereLight( 0xffffff, 0xbbbbff, 1 );
     scene.add(light);
 
-    const raccoon = await loadGLTF('../../assets/models/scene.gltf');
+    const raccoon = await loadGLTF('../../assets/models/car1/scene.gltf');
     raccoon.scene.scale.set(0.00005, 0.00005, 0.00005);
     raccoon.scene.position.set(0, -0.4, 0);
     raccoon.scene.userData.clickable = true
